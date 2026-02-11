@@ -13,12 +13,10 @@ Currently enrolled in a PhD programme at the CEA, affiliated with Université Pa
 
 Laboratories
 ======
-**LANIE** _Laboratory for Nuclear, Isotopic and Elemental Analytical Development_
-
+**LANIE** _Laboratory for Nuclear, Isotopic and Elemental Analytical Development_<br>
 Under the supervision of [Jean-Baptiste SIRVEN](https://www.researchgate.net/scientific-contributions/Jean-Baptiste-Sirven-2014420753)
 
-**LIAD** _Laboratory for AI & Data Science_
-
+**LIAD** _Laboratory for AI & Data Science_<br>
 Under the supervision of [Riccardo FINOTELLO](https://scholar.google.com/citations?user=mT3o06QAAAAJ&hl=it)
 
 PhD Project
