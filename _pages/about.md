@@ -11,6 +11,16 @@ Computer science engineer specialising in Big Data.
 I finished high school and completed my Master’s degree early (at age 21), graduating at the top of my cohort (1st out of 196). 
 Currently enrolled in a PhD programme at the CEA, affiliated with Université Paris‑Saclay.
 
+Laboratories
+======
+**LANIE** _Laboratory for Nuclear, Isotopic and Elemental Analytical Development_
+
+Under the supervision of [Jean-Baptiste SIRVEN](https://www.researchgate.net/scientific-contributions/Jean-Baptiste-Sirven-2014420753)
+
+**LIAD** _Laboratory for AI & Data Science_
+
+Under the supervision of [Riccardo FINOTELLO](https://scholar.google.com/citations?user=mT3o06QAAAAJ&hl=it)
+
 PhD Project
 ======
 Applying multivariate techniques to liquid-based Laser-Induced Breakdown Spectroscopy (LIBS) to:
@@ -36,11 +46,3 @@ Finally, multiple uncertainties must be estimated or modelled (and optimised):
 - The measurement uncertainty (i.e., how likely the signal is to naturally fluctuate with specific experimental parameters).
 - The elemental concentration quantification uncertainty (i.e., the probability that the predicted elemental concentration is accurate).
 This can be achieved through intrinsic (e.g., probabilistic models) or extrinsic methods (e.g., ensemble methods), adding another layer of complexity to the project.
-
-Laboratories
-------
-**LANIE** _Laboratory for Nuclear, Isotopic and Elemental Analytical Development_
-Under the supervision of [Jean-Baptiste SIRVEN](https://www.researchgate.net/scientific-contributions/Jean-Baptiste-Sirven-2014420753)
-<br>
-**LIAD** _Laboratory for AI & Data Science_
-Under the supervision of [Riccardo FINOTELLO](https://scholar.google.com/citations?user=mT3o06QAAAAJ&hl=it)
