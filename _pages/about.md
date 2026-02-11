@@ -1,56 +1,46 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Description"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Computer science engineer specialising in Big Data. 
+I finished high school and completed my Master’s degree early (at age 21), graduating at the top of my cohort (1st out of 196). 
+Currently enrolled in a PhD programme at the CEA, affiliated with Université Paris‑Saclay.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
+PhD Project
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Applying multivariate techniques to liquid-based Laser-Induced Breakdown Spectroscopy (LIBS) to:
+- Optimise experimental parameters such as laser power, gate delay, and gate width.
+- Develop elemental quantification techniques for actinides (U/Pu) and lanthanides (Nd/Ce/Gd) within acidic or aqueous solutions.
+- Provide uncertainty quantification (UQ) and keep said uncertainty in the order of single digits (<10%).
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+While LIBS has been widely adopted as an alternative to XRF or Gamma ($\gamma$) absorptiometry techniques for in-situ elemental analysis in recent years (e.g., Curiosity in 2011 and Perseverance in 2020), liquid LIBS is still a relatively new domain where research is expected to thrive in the near future. 
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+This work falls within the domain of "chemometrics," a field that bridges data-driven approaches and chemistry. This project will focus on techniques more sophisticated than standard chemometrics (e.g., calibration curves, PCA), as it is a collaboration between a physics/chemistry lab (LANIE) and an AI-centred lab (LIAD).
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+The abundance of tunable parameters in the experiment makes it difficult to pinpoint which parameters to steer toward to achieve a better signal. The definition of a "better signal" can be ambiguous, as it could imply:
+- Highest reproducibility:
+  - Constant area under a peak?
+  - Lower variance across the entire spectrum?
+  - Should normalisation be applied before optimising?
+- Highest Signal-to-Noise Ratio (SNR)
+- Highest emission line-to-background ratio
 
-Site-wide configuration
+Furthermore, the goal of this PhD is to obtain a "plug-and-play" solution without a calibration step, known as calibration-free LIBS (CF-LIBS), where a model (univariate or multivariate) predicts the concentration of multiple elements. While this can be straightforward for light elements with few emission lines, actinides and lanthanides are well known for producing highly complex spectra with thousands of interfering emission lines. This challenge is exacerbated when concentrations are unbalanced (i.e., one element is significantly more concentrated than others), which is the case here: 100 g/L of Nd, 8.5 g/L of Ce, and only 0.25 g/L of Gd.
+
+Finally, multiple uncertainties must be estimated or modelled (and optimised):
+- The measurement uncertainty (i.e., how likely the signal is to naturally fluctuate with specific experimental parameters).
+- The elemental concentration quantification uncertainty (i.e., the probability that the predicted elemental concentration is accurate).
+This can be achieved through intrinsic (e.g., probabilistic models) or extrinsic methods (e.g., ensemble methods), adding another layer of complexity to the project.
+
+Laboratories
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**LANIE** _Laboratory for Nuclear, Isotopic and Elemental Analytical Development_
+Under the supervision of [Jean-Baptiste SIRVEN](https://www.researchgate.net/scientific-contributions/Jean-Baptiste-Sirven-2014420753)
+<br>
+**LIAD** _Laboratory for AI & Data Science_
+Under the supervision of [Riccardo FINOTELLO](https://scholar.google.com/citations?user=mT3o06QAAAAJ&hl=it)
