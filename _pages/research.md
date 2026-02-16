@@ -1,6 +1,5 @@
 ---
 permalink: /research/
-title: "Research"
 author_profile: true
 ---
 
@@ -11,7 +10,7 @@ Applying multivariate techniques to liquid-based Laser-Induced Breakdown Spectro
 - Develop elemental quantification techniques for actinides (U/Pu) and lanthanides (Nd/Ce/Gd) within acidic or aqueous solutions.
 - Provide uncertainty quantification (UQ) and keep said uncertainty in the order of single digits (<10%).
 
-Description
+Challenges
 ------
 While LIBS has been widely adopted as an alternative to XRF or Gamma ($$\gamma$$) absorptiometry techniques for in-situ elemental analysis in recent years (e.g., Curiosity in 2011 and Perseverance in 2020), liquid LIBS is still a relatively new domain where research is expected to thrive in the near future. 
 
