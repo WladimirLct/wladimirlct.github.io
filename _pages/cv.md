@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Professional Profile"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,6 +8,8 @@ redirect_from:
 
 {% include base_path %}
 
+Professional Profile
+======
 PhD Student in Physics with expertise in computer vision, medical imaging, and optimisation algorithms. Particularly interested in research and industry opportunities that combine theoretical advances with practical applications in healthcare, physics or industrial optimisation.
 
 Education
