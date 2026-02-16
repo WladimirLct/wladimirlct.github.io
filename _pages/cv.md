@@ -81,7 +81,7 @@ Projects
 * MediFuse, Project Leader (2023)
   * Designed tool for analysing and manipulating 2D medical signals
   * Developed 3D reconstruction algorithms for limbs and tissues from medical images (DICOM)
-
+<!-- 
 Technical Skills
 ======
 * Languages
@@ -89,12 +89,13 @@ Technical Skills
 * Frameworks
   * TensorFlow, PyTorch, Pandas, NumPy, Scikit-learn
 * Tools
-  * Linux, Docker, Git, Cloud Platforms (GCP, Azure)
+  * Linux, Docker, Git, Cloud Platforms (GCP, Azure) 
+-->
 
 Languages
 ======
 * French: Native (Certificat Voltaire: 744/1000, 2021)
-* English: C1 (IELTS: Band 8, 2024; TOEIC: 960/990, 2022)
+* English: C1/C2 (IELTS: Band 8, 2024)
 * Spanish: A2
 
 Volunteer Work
@@ -103,7 +104,7 @@ Volunteer Work
   * Conducted courses on parliamentary debate techniques and public speaking
   * Taught critical reasoning and argument formulation to engineering students
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -113,7 +114,7 @@ Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Academic References
 ======
