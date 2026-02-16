@@ -3,15 +3,15 @@ permalink: /research/
 author_profile: true
 ---
 
-Goals
-------
+Objectives
+======
 Applying multivariate techniques to liquid-based Laser-Induced Breakdown Spectroscopy (LIBS) to:
 - Optimise experimental parameters such as laser power, gate delay, and gate width.
 - Develop elemental quantification techniques for actinides (U/Pu) and lanthanides (Nd/Ce/Gd) within acidic or aqueous solutions.
 - Provide uncertainty quantification (UQ) and keep said uncertainty in the order of single digits (<10%).
 
 Challenges
-------
+======
 While LIBS has been widely adopted as an alternative to XRF or Gamma ($$\gamma$$) absorptiometry techniques for in-situ elemental analysis in recent years (e.g., Curiosity in 2011 and Perseverance in 2020), liquid LIBS is still a relatively new domain where research is expected to thrive in the near future. 
 
 This work falls within the domain of "chemometrics," a field that bridges data-driven approaches and chemistry. This project will focus on techniques more sophisticated than standard chemometrics (e.g., calibration curves, PCA), as it is a collaboration between a physics/chemistry lab (LANIE) and an AI-centred lab (LIAD).
@@ -32,7 +32,7 @@ Finally, multiple uncertainties must be estimated or modelled (and optimised):
 This can be achieved through intrinsic (e.g., probabilistic models) or extrinsic methods (e.g., ensemble methods), adding another layer of complexity to the project.
 
 Laboratories
-------
+======
 **LANIE** _Laboratory for Nuclear, Isotopic and Elemental Analytical Development_<br>
 Under the supervision of [Jean-Baptiste SIRVEN](https://www.researchgate.net/scientific-contributions/Jean-Baptiste-Sirven-2014420753)
 
