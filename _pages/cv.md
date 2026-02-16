@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Professional Profile"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,19 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
-Professional Profile
-======
 PhD Student in Physics with expertise in computer vision, medical imaging, and optimisation algorithms. Particularly interested in research and industry opportunities that combine theoretical advances with practical applications in healthcare, physics or industrial optimisation.
 
 Education
 ======
 * PhD in Physics, Université Paris-Saclay, 2025 - 2028 (expected)
   * Global university rankings: #2 in Mathematics, #6 in Physics (Shanghai Ranking 2025)
-* Engineering Degree, Master Big Data, JUNIA ISEN Lille, 2023 – 2025
+* Engineering Degree, Master Big Data, JUNIA ISEN Lille, 2023 - 2025
   * Valedictorian (1st out of 196)
   * Relevant Coursework: Deep Learning, Data Optimisation, Computer Vision
   * Highest achiever: Advanced ML, AI in health, Python Scripting, Metaheuristics & Indexing, and M1 Project
-* Integrated Preparatory Cycle, JUNIA ISEN Lille, 2020 – 2023
+* Integrated Preparatory Cycle, JUNIA ISEN Lille, 2020 - 2023
   * Ranked 6th out of 98
   * Relevant Coursework: Mathematics, Physics, Quantum Mechanics, Servo Control, Electronics
 * Scientific Baccalaureate, Lycée Français de Bruxelles, 2020
@@ -35,30 +33,30 @@ Work Experience
     * Research work on LIBS
     * Research work on AI methods (ML, DL, DRL)
 
-* Sept 2024 – Aug 2025: Data Scientist
-  * Axians Data & IA (Vinci Energies) – Paris, France
+* Sept 2024 - Aug 2025: Data Scientist
+  * Axians Data & IA (Vinci Energies) - Paris, France
   * Duties included:
     * Optimised defect detection process (50% time reduction) on nuclear fuel rods
     * Implemented and fine-tuned Convolutional Neural Networks (YOLO)
     * Developed Auto-encoder models & used SOTA anomaly detection models (EfficientAD)
 
-* May 2024 – Aug 2024: Researcher
-  * York University – Toronto, Canada
+* May 2024 - Aug 2024: Researcher
+  * York University - Toronto, Canada
   * Duties included:
     * Conducted research in generative AI and image processing at the EXINES laboratory
     * Developed algorithms for heuristic image segmentation and OCR applications
     * Implemented text manipulation techniques and researched prompt engineering
     * Collaborated with international researchers
 
-* Sept 2023 – Sept 2024: Data Analyst (Part-time remote)
-  * Mojoe – Brussels, Belgium
+* Sept 2023 - Sept 2024: Data Analyst (Part-time remote)
+  * Mojoe - Brussels, Belgium
   * Duties included:
     * Created inventory automation processes and workflows to enhance operational efficiency
     * Implemented data analysis and visualisation tools (Grafana, PostgreSQL)
     * Developed trend analysis for team management decisions and staffing optimisation
 
-* June 2022 – Aug 2022: Intern
-  * MNK Partners – Warsaw, Poland
+* June 2022 - Aug 2022: Intern
+  * MNK Partners - Warsaw, Poland
   * Duties included:
     * Performed market analysis for a real estate investment fund specialising in European office spaces
     * Utilised financial models to assess properties and prepared presentations for stakeholders
