@@ -12,4 +12,6 @@ redirect_from:
 I completed high school in Brussels, Belgium, before pursuing an engineering degree (computer science & big data) in Lille, France, graduating early (at the age of 21) as valedictorian. 
 I am currently enrolled in a PhD programme at the CEA (French Atomic Energy Commission), affiliated with Université Paris-Saclay.
 
+The PhD is an application of AI to a physics/chemistry problem. Its goal is to optimise LIBS measurements of Uranium and Plutonium through AI techniques.
+
 My research interests mainly focus on optimisation methods, metaheuristics, and applied artificial intelligence (particularly representation learning).
