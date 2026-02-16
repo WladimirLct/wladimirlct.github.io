@@ -81,16 +81,6 @@ Projects
 * MediFuse, Project Leader (2023)
   * Designed tool for analysing and manipulating 2D medical signals
   * Developed 3D reconstruction algorithms for limbs and tissues from medical images (DICOM)
-<!-- 
-Technical Skills
-======
-* Languages
-  * Python, R, SQL, NodeJS, C++, C#, Java, Terraform
-* Frameworks
-  * TensorFlow, PyTorch, Pandas, NumPy, Scikit-learn
-* Tools
-  * Linux, Docker, Git, Cloud Platforms (GCP, Azure) 
--->
 
 Languages
 ======
