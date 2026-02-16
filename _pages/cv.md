@@ -105,17 +105,3 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul> -->
-  
-Academic References
-======
-* Feryal WINDAL, PhD (HDR)
-  * Researcher and Professor at JUNIA ISEN, and Associate Member at IEMN (CNRS)
-  * Email: feryal.windal@junia.com
-
-* Maleknaz NAYEBI, PhD
-  * Researcher and Associate Professor at York University, Toronto
-  * Email: mnayebi@yorku.ca
-
-* Jean-Baptiste SIRVEN, PhD (HDR)
-  * Researcher and Professor at Université Paris-Saclay
-  * Email: jean-baptiste.sirven@cea.fr
