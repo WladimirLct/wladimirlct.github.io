@@ -29,7 +29,7 @@ author:
   location         : "France"
   employer         : "Université Paris-Saclay, CEA"
   uri              : # URL
-  email            : "wladimir.lucet@cea.fr" 
+  # email            : "wladimir.lucet@cea.fr" 
 
   # Academic websites
   academia         : # URL
