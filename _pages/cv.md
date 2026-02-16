@@ -9,37 +9,101 @@ redirect_from:
 
 {% include base_path %}
 
+Professional Profile
+======
+PhD Student in Physics with expertise in computer vision, medical imaging, and optimization algorithms. Particularly interested in research and industry opportunities that combine theoretical advances with practical applications in healthcare, physics or industrial optimization.
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* PhD in Physics, Université Paris-Saclay, 2025 - 2028 (expected)
+  * Global university rankings: #2 in Mathematics, #6 in Physics (Shanghai Ranking 2025)
+* Engineering Degree, Master Big Data, JUNIA ISEN Lille, 2023 – 2025
+  * Valedictorian (1st out of 196)
+  * Relevant Coursework: Deep Learning, Data Optimization, Computer Vision
+  * Highest achiever: Advanced ML, AI in health, Python Scripting, Metaheuristics & Indexing, and M1 Project
+* Integrated Preparatory Cycle, JUNIA ISEN Lille, 2020 – 2023
+  * Ranked 6th out of 98
+  * Relevant Coursework: Mathematics, Physics, Quantum Mechanics, Servo Control, Electronics
+* Scientific Baccalaureate, Lycée Français de Bruxelles, 2020
+  * Computer Science option, graduated with honors ("Mention bien") at 16 y/o
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Oct 2025 - Now: PhD Student
+  * CEA - Saclay, France
+  * Duties included:
+    * Research work on LIBS
+    * Research work on AI methods (ML, DL, DRL)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Sept 2024 – Aug 2025: Data Scientist
+  * Axians Data & IA (Vinci Energies) – Paris, France
+  * Duties included:
+    * Optimized defect detection process (50% time reduction) on nuclear fuel rods
+    * Implemented and fine-tuned Convolutional Neural Networks (YOLO)
+    * Developed Auto-encoder models & used SOTA anomaly detection models (EfficientAD)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* May 2024 – Aug 2024: Researcher
+  * York University – Toronto, Canada
+  * Duties included:
+    * Conducted research in generative AI and image processing at the EXINES laboratory
+    * Developed algorithms for heuristic image segmentation and OCR applications
+    * Implemented text manipulation techniques and researched prompt engineering
+    * Collaborated with international researchers
+
+* Sept 2023 – Sept 2024: Data Analyst (Part-time, fully remote)
+  * Mojoe – Brussels, Belgium
+  * Duties included:
+    * Created inventory automation processes and workflows to enhance operational efficiency
+    * Implemented data analysis and visualization tools (Grafana, PostgreSQL)
+    * Developed trend analysis for team management decisions and staffing optimization
+
+* June 2022 – Aug 2022: Intern
+  * MNK Partners – Warsaw, Poland
+  * Duties included:
+    * Performed market analysis for a real estate investment fund specializing in European office spaces
+    * Utilized financial models to assess properties and prepared presentations for stakeholders
+
+Projects
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Impedance Spectroscopy Tool, Project Leader (2025)
+  * Developed a tool to visualize impedance curves in 2D and 3D
+  * Performed statistical tests on Imp. curves from cell pits infected by cryptosporidium
+  * Optimized data loading process (20 minutes → 1 minute)
+
+* FionnAI, Project Leader (2024)
+  * Led partnership project with CHU Lille for medical AI applications
+  * Fine-tuned AI classification models to improve accuracy (up to 97%)
+  * Designed optimization algorithms reducing processing time by over 90%
+
+* Physics Simulations, Personal Project (2023)
+  * Created simulation of gravity fields and interactions based on Newton's laws
+  * Recreated pathtracing / raymarching from scratch
+  * Implemented wave function collapse algorithm for procedural world map generation
+
+* MediFuse, Project Leader (2023)
+  * Designed tool for analyzing and manipulating 2D medical signals
+  * Developed 3D reconstruction algorithms for limbs and tissues from medical images (DICOM)
+
+Technical Skills
+======
+* Languages
+  * Python, R, SQL, NodeJS, C++, C#, Java, Terraform
+* Frameworks
+  * TensorFlow, PyTorch, Pandas, NumPy, Scikit-learn
+* Tools
+  * Linux, Docker, Git, Cloud Platforms (GCP, Azure)
+
+Languages
+======
+* French: Native (Certificat Voltaire: 744/1000, 2021)
+* English: C1 (IELTS: Band 8, 2024; TOEIC: 960/990, 2022)
+* Spanish: A2
+
+Volunteer Work
+======
+* Parole d'ingHEI, Animator
+  * Conducted courses on parliamentary debate techniques and public speaking
+  * Taught critical reasoning and argument formulation to engineering students
 
 Publications
 ======
@@ -53,12 +117,16 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+Academic References
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Feryal WINDAL, PhD (HDR)
+  * Researcher and Professor at JUNIA ISEN, and Associate Member at IEMN (CNRS)
+  * Email: feryal.windal@junia.com
+
+* Maleknaz NAYEBI, PhD
+  * Researcher and Associate Professor at York University, Toronto
+  * Email: mnayebi@yorku.ca
+
+* Jean-Baptiste SIRVEN, PhD (HDR)
+  * Researcher and Professor at Université Paris-Saclay
+  * Email: jean-baptiste.sirven@cea.fr
