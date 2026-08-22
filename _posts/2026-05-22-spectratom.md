@@ -13,7 +13,7 @@ Spectratom is an international conference dedicated to atomic spectroscopy resea
 It mostly features ICP-type techniques (ICP-MS, ICP-OES, etc.) capable of parts-per-billion (ppb) detection limits.
 While LIBS cannot offer ppb-level LoDs, it has the key advantage of requiring no extensive sample preparation.
 
-Here, I presented [preliminary work on experimental parameter optimization and validation](<../files/Spectratom2026.pdf>).
+Here, I presented [preliminary work on experimental parameter optimization and validation]({{ '/files/Spectratom2026.pdf' | relative_url }}).
 As complex as LIBS is, obtaining *a signal* is relatively straightforward: if the laser energy is sufficient to generate a plasma, and the gate delay is short enough to capture photons during its lifetime, you will almost certainly get a spectrum.
 
 The difficult part of LIBS, especially liquid-based LIBS, is obtaining *the optimal signal*.
@@ -47,3 +47,18 @@ However, at extremely short gate delays (<150 ns), the baseline (bremsstrahlung 
 In future steps, full baseline subtraction algorithms will be used instead of single-region background subtraction. While this limitation does not invalidate the Bayesian optimization methodology (the BO successfully found an optimum relative to the defined objective function), it highlighted that modeling RSD became noticeably harder once this baseline artifact was corrected. 
 
 👉 *I have been working on this, so stay tuned!*
+
+## Poster
+
+<iframe
+  src="{{ '/files/Spectratom2026.pdf' | relative_url }}"
+  width="100%"
+  height="800"
+  style="border: 1px solid #ddd;">
+</iframe>
+
+<p>
+  <a href="{{ '/files/Spectratom2026.pdf' | relative_url }}" target="_blank" rel="noopener">
+    Open the PDF in a new tab
+  </a>
+</p>
