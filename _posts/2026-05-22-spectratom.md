@@ -31,11 +31,11 @@ Our goal was to adapt and expand their methodology to a higher-dimensional space
 The rationale for minimizing RSD on the Cerium line is clear: we are working with an imbalanced matrix (100 g/L Neodymium vs. 8.5 g/L Cerium). 
 The minor Cerium line exhibits higher RSD overall, so we prioritize obtaining the cleanest and most reproducible signal possible, a "help the weak signal first" strategy.
 
-Because obtaining *a signal* is straightforward, classifying parameter spaces that **won't** produce one is equally tractable. Hence, we transitioned from standard BO to Constrained Bayesian Optimization (cBO), employing a classifier GP that learns the "feasibility region" by explicitly excluding non-signal and detector-saturating zones.
+Because obtaining *a signal* is straightforward, classifying parameter spaces that **won't** produce one is equally tractable. Hence, we transitioned from standard BO to Constrained Bayesian Optimization (cBO), employing a classifier GP that learns the "feasibility region" by explicitly excluding the no-signal and saturation zones.
 
 While LoD is relatively straightforward to model because it tracks Signal-to-Noise Ratio (SNR) $$\mu / \sigma_{\text{background}}$$, which scales directly with laser energy until detector saturation, RSD is defined as $$\sigma_{\text{replicates}} / \mu$$, making it inherently more volatile and non-linear. Moreover, external experimental fluctuations often compete directly with parameter influence. 
 
-In short, our objective was to minimize RSD (improve repeatability) while enforcing constraints on SNR and signal validity.
+In short, the BO's objective was to minimize RSD (improve repeatability), enhance SNR (improve quality) while following constraints on feasability.
 
 As reaching a 0% RSD is impossible due to external environmental noise, our goal was twofold: either successfully reduce RSD (or keep it steady while increasing SNR), or demonstrate that a small Latin Hypercube Sample (LHS) can quickly find an RSD regime bounded only by external noise.
 
@@ -47,7 +47,7 @@ However, at extremely short gate delays (<150 ns), the baseline (bremsstrahlung 
 
 In future steps, full baseline subtraction algorithms will be used instead of single-region background subtraction. While this limitation does not invalidate the Bayesian optimization methodology (the BO successfully found an optimum relative to the defined objective function), it highlighted that modeling RSD became noticeably harder once this baseline artifact was corrected. 
 
-👉 *I have been working on this, so stay tuned!*
+$$\rightarrow$$ *I have been working on this, so stay tuned!*
 
 ## Poster
 
