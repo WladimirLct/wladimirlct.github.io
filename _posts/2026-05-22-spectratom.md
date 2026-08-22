@@ -13,7 +13,7 @@ Spectratom is an international conference dedicated to atomic spectroscopy resea
 It mostly features ICP-type techniques (ICP-MS, ICP-OES, etc.) capable of parts-per-billion (ppb) detection limits.
 While LIBS cannot offer ppb-level LoDs, it has the key advantage of requiring no extensive sample preparation.
 
-Here, I presented [preliminary work on experimental parameter optimization and validation](<../files/Spectratom_2026.pdf>).
+Here, I presented [preliminary work on experimental parameter optimization and validation](<../files/Spectratom2026.pdf>).
 As complex as LIBS is, obtaining *a signal* is relatively straightforward: if the laser energy is sufficient to generate a plasma, and the gate delay is short enough to capture photons during its lifetime, you will almost certainly get a spectrum.
 
 The difficult part of LIBS, especially liquid-based LIBS, is obtaining *the optimal signal*.
@@ -28,17 +28,17 @@ Our goal was to adapt and expand their methodology to a higher-dimensional space
 - Liquid jet flow rate, shielding gas flow rate
 
 The rationale for minimizing RSD on the Cerium line is clear: we are working with an imbalanced matrix (100 g/L Neodymium vs. 8.5 g/L Cerium). 
-The minor Cerium line exhibits higher RSD overall, so we prioritize obtaining the cleanest and most reproducible signal possible—a "help the weak signal first" strategy.
+The minor Cerium line exhibits higher RSD overall, so we prioritize obtaining the cleanest and most reproducible signal possible, a "help the weak signal first" strategy.
 
 Because obtaining *a signal* is straightforward, classifying parameter spaces that **won't** produce one is equally tractable. Hence, we transitioned from standard BO to Constrained Bayesian Optimization (cBO), employing a classifier GP that learns the "feasibility region" by explicitly excluding non-signal and detector-saturating zones.
 
-While LoD is relatively straightforward to model because it tracks Signal-to-Noise Ratio (SNR) $\mu / \sigma_{\text{background}}$, which scales directly with laser energy until detector saturation, RSD is defined as $\sigma_{\text{replicates}} / \mu$, making it inherently more volatile and non-linear. Moreover, external experimental fluctuations often compete directly with parameter influence. 
+While LoD is relatively straightforward to model because it tracks Signal-to-Noise Ratio (SNR) $$\mu / \sigma_{\text{background}}$$, which scales directly with laser energy until detector saturation, RSD is defined as $$\sigma_{\text{replicates}} / \mu$$, making it inherently more volatile and non-linear. Moreover, external experimental fluctuations often compete directly with parameter influence. 
 
 In short, our objective was to minimize RSD (improve repeatability) while enforcing constraints on SNR and signal validity.
 
 As reaching a 0% RSD is impossible due to external environmental noise, our goal was twofold: either successfully reduce RSD (or keep it steady while increasing SNR), or demonstrate that a small Latin Hypercube Sample (LHS) can quickly find an RSD regime bounded only by external noise.
 
-With this Constrained BO approach, we achieved a stable 1.5–2% RSD regime for the Cerium line (compared to an LHS median of ~6%) while significantly improving SNR ($\approx \times 2$).
+With this Constrained BO approach, we achieved a stable 1.5–2% RSD regime for the Cerium line (compared to an LHS median of ~6%) while significantly improving SNR ($$\approx \times 2$$).
 
 **Limitations:**
 Net signal intensity was initially calculated by subtracting a background intensity value sampled from an emission-free spectral region. 
