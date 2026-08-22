@@ -9,11 +9,12 @@ tags:
 ---
 
 I had the great pleasure of presenting a poster at the Spectratom 2026 conference held in Pau, France.
+Here, I presented [preliminary work] on experimental parameter optimization and validation({{ '/files/Spectratom2026.pdf' | relative_url }}).
+
 Spectratom is an international conference dedicated to atomic spectroscopy research.
 It mostly features ICP-type techniques (ICP-MS, ICP-OES, etc.) capable of parts-per-billion (ppb) detection limits.
 While LIBS cannot offer ppb-level LoDs, it has the key advantage of requiring no extensive sample preparation.
 
-Here, I presented [preliminary work on experimental parameter optimization and validation]({{ '/files/Spectratom2026.pdf' | relative_url }}).
 As complex as LIBS is, obtaining *a signal* is relatively straightforward: if the laser energy is sufficient to generate a plasma, and the gate delay is short enough to capture photons during its lifetime, you will almost certainly get a spectrum.
 
 The difficult part of LIBS, especially liquid-based LIBS, is obtaining *the optimal signal*.
