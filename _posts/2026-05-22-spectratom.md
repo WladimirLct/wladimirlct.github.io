@@ -9,7 +9,7 @@ tags:
 ---
 
 I had the great pleasure of presenting a poster at the Spectratom 2026 conference held in Pau, France.
-Here, I presented [preliminary work] on experimental parameter optimization and validation({{ '/files/Spectratom2026.pdf' | relative_url }}).
+Here, I presented [preliminary work]({{ '/files/Spectratom2026.pdf' | relative_url }}) on experimental parameter optimization and validation.
 
 Spectratom is an international conference dedicated to atomic spectroscopy research.
 It mostly features ICP-type techniques (ICP-MS, ICP-OES, etc.) capable of parts-per-billion (ppb) detection limits.
