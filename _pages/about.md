@@ -21,6 +21,7 @@ The primary objective is to accurately quantify Uranium, Plutonium, and Gadolini
 My research interests include:
 * Optimisation Methods & Metaheuristics
 * Applied Artificial Intelligence
+* Hardware-to-software Optimisation
 
 My personal interests include:
 * Jazz music
