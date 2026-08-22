@@ -3,35 +3,48 @@ permalink: /research/
 author_profile: true
 ---
 
+Introduction
+======
+In nuclear fuel recycling plants, Gamma ($\gamma$) absorptiometry is used on acidic solutions to quantify Uranium and Plutonium levels in real-time as a safety measure. 
+These measurements allow for reliable readings with around 10% uncertainty, but rely on aging (if not obsolete) hardware.
+
+The purpose of this research work is to prove that an alternative technique called *Laser-Induced Breakdown Spectroscopy* (LIBS) can be employed to achieve sub-10% uncertainty for U, Pu, and other elemental concentrations in acidic solutions.
+Although LIBS has proven its worth as a robust in-situ elemental analysis technique on planetary missions (e.g., Curiosity in 2011 and Perseverance in 2020), active research continues to advance the field and overcome analytical limitations. 
+
+This work falls within the domain of "chemometrics," a field bridging data-driven approaches and chemistry. 
+This project focuses on advanced machine learning methods beyond conventional chemometrics (e.g., simple calibration curves, PCA), developed through a collaboration between a physics/chemistry laboratory (LANIE) and an AI-focused laboratory (LIAD).
+
 Objectives
 ======
-Applying multivariate techniques to liquid-based Laser-Induced Breakdown Spectroscopy (LIBS) to:
+Applying AI methods to LIBS in order to:
 - Optimise experimental parameters such as laser power, gate delay, and gate width.
-- Develop elemental quantification techniques for actinides (U/Pu) and lanthanides (Nd/Ce/Gd) within acidic or aqueous solutions.
-- Provide uncertainty quantification (UQ) and keep said uncertainty in the order of single digits (<10%).
+- Develop elemental quantification techniques for actinide (U/Pu) surrogates, specifically lanthanides (Nd, Ce, Gd), within acidic or aqueous solutions.
+- Provide uncertainty quantification (UQ) while keeping said uncertainty in the single digits (<10%).
 
 Challenges
 ======
-While LIBS has been widely adopted as an alternative to XRF or Gamma ($$\gamma$$) absorptiometry techniques for in-situ elemental analysis in recent years (e.g., Curiosity in 2011 and Perseverance in 2020), liquid LIBS is still a relatively new domain where research is expected to thrive in the near future. 
+The abundance of tuneable experimental parameters and the non-linearity of their respective influences make signal optimisation non-trivial.
+Key experimental variables include:
+- Spectrometer type (Czerny-Turner, Échelle)
+- Laser wavelength (UV/Visible/IR) and pulse power
+- Focal point positioning (depth in the jet and horizontal offset)
+- Shielding gas selection (e.g., Argon, Helium)
+- Camera parameters (gain, gate width/delay, readout speeds)
 
-This work falls within the domain of "chemometrics," a field that bridges data-driven approaches and chemistry. 
-This project will focus on more recent methods than standard chemometrics (e.g., calibration curves, PCA), as it is a collaboration between a physics/chemistry lab (LANIE) and an AI-centred lab (LIAD).
-
-The abundance of tuneable parameters in the experiment and the non-linearity of their respective influcence make it difficult to achieve a better signal. The definition of a "better signal" can also be ambiguous, as it could imply:
+Defining a "better LIBS signal" is also ambiguous, as objective criteria may differ between applications:
 - Highest Signal-to-Noise Ratio (SNR)
+- Lowest Limit-of-Detection (LoD)
 - Highest Signal-to-Background Ratio (SBR)
-- Highest reproducibility:
-  - Constant area under a peak?
-  - Lower variance across the entire spectrum?
-  - Should normalisation be applied?
+- Maximum reproducibility, evaluated by:
+  - Low Relative Standard Deviation (RSD) of peak areas across replicates
+  - Lower variance across the entire spectrum over multiple replicates
 
-Furthermore, the goal of this PhD is to obtain a solution without a calibration step, known as calibration-free LIBS (CF-LIBS), where a model predicts the concentration of multiple elements. 
-While this can be straightforward for light elements with few emission lines, actinides and lanthanides are well known for producing highly complex spectra with thousands of interfering emission lines. 
-This challenge is exacerbated when concentrations are unbalanced (i.e., one element is significantly more concentrated than others), which is the case here: 100 g/L of Nd, 8.5 g/L of Ce, and only 0.25 g/L of Gd.
+While LIBS spectrum inversion can be straightforward for light elements with sparse emission lines, actinides and lanthanides produce highly complex spectra with thousands of *overlapping and interfering emission lines*. 
+This challenge is compounded by severe concentration imbalances (e.g., 100 g/L Nd, 8.5 g/L Ce, and only 0.25 g/L Gd), which enhances matrix effects.
 
-Finally, multiple uncertainties must be estimated or modelled (and optimised):
-- The measurement uncertainty (i.e., how likely the signal is to naturally fluctuate with specific experimental parameters).
-- The elemental concentration quantification uncertainty (i.e., the probability that the predicted elemental concentration is accurate).
+Finally, two distinct levels of uncertainty must be estimated and optimized:
+- **Measurement uncertainty:** Natural signal fluctuations driven by specific experimental parameters and external factors.
+- **Quantification uncertainty:** Predictive probability and accuracy associated with modeled elemental concentrations.
 
 Laboratories
 ======
