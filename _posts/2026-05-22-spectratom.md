@@ -33,7 +33,7 @@ The minor Cerium line exhibits higher RSD overall, so we prioritize obtaining th
 
 Because obtaining *a signal* is straightforward, classifying parameter spaces that **won't** produce one is equally tractable. Hence, we transitioned from standard BO to Constrained Bayesian Optimization (cBO), employing a classifier GP that learns the "feasibility region" by explicitly excluding the no-signal and saturation zones.
 
-While LoD is relatively straightforward to model because it tracks Signal-to-Noise Ratio (SNR) $$\mu / \sigma_{\text{background}}$$, which scales directly with laser energy until detector saturation, RSD is defined as $$\sigma_{\text{replicates}} / \mu$$, making it inherently more volatile and non-linear. Moreover, external experimental fluctuations often compete directly with parameter influence. 
+While LoD is relatively straightforward to model because it tracks Signal-to-Noise Ratio (SNR) ($$\mu / \sigma_{\text{background}}$$), which scales directly with laser energy until detector saturation, RSD is defined as ($$\sigma_{\text{replicates}} / \mu$$), making it inherently more volatile and non-linear. Moreover, external experimental fluctuations often compete directly with parameter influence. 
 
 In short, the BO's objective was to minimize RSD (improve repeatability), enhance SNR (improve quality) while following constraints on feasability.
 
