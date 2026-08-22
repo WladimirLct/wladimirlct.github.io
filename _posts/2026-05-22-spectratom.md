@@ -31,7 +31,7 @@ Our goal was to adapt and expand their methodology to a higher-dimensional space
 The rationale for minimizing RSD on the Cerium line is clear: we are working with an imbalanced matrix (100 g/L Neodymium vs. 8.5 g/L Cerium). 
 The minor Cerium line exhibits higher RSD overall, so we prioritize obtaining the cleanest and most reproducible signal possible, a "help the weak signal first" strategy.
 
-Because obtaining *a signal* is straightforward, classifying parameter spaces that **won't** produce one is equally tractable. Hence, we transitioned from standard BO to Constrained Bayesian Optimization (cBO), employing a classifier GP that learns the "feasibility region" by explicitly excluding the no-signal and saturation zones.
+As mentioned earlier, since obtaining *a signal* is easy, classifying parameter spaces that won't produce one is equally manageable. Hence, we transitioned from standard BO to Constrained Bayesian Optimization (cBO), employing a classifier GP that learns the "feasibility region" by explicitly excluding the no-signal and saturation zones.
 
 While LoD is relatively straightforward to model because it tracks Signal-to-Noise Ratio (SNR) ($$\mu / \sigma_{\text{background}}$$), which scales directly with laser energy until detector saturation, RSD is defined as ($$\sigma_{\text{replicates}} / \mu$$), making it inherently more volatile and non-linear. Moreover, external experimental fluctuations often compete directly with parameter influence. 
 
