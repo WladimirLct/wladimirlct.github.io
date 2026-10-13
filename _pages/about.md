@@ -9,7 +9,7 @@ redirect_from:
 
 *PhD Student in Nuclear Physics and Artificial Intelligence*
 
-I am a first-year PhD student at the CEA (French Atomic Energy Commission) and Université Paris-Saclay. 
+I am a second year PhD student at the CEA (French Atomic Energy Commission) and Université Paris-Saclay. 
 Prior to this, I obtained my Engineering Degree in Computer Science & Big Data from JUNIA ISEN Lille (France), graduating as Valedictorian at the age of 21.
 
 My doctoral research sits at the intersection of Artificial Intelligence and Nuclear Physics. 
