@@ -1,5 +1,5 @@
 ---
-title: "Work in progress"
+title: "Paper 1"
 collection: publications
 category: manuscripts
 permalink: /publication/work-in-progress
